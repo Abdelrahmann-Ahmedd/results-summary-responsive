@@ -1,0 +1,45 @@
+@media only screen and (max-width: 375px) {
+    .componentSection {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    
+    .componentSection .componentResult {
+        width: 100%;
+        height: 40%;
+        text-align: center;
+        padding: 5% ;
+        border-top-left-radius:  0px;
+        border-top-right-radius: 0px;
+    }
+
+    .componentSection .componentSummary {
+        width: 100%;
+        height: 60%;
+        padding: 10% 8%;
+    }
+
+    .componentSection .componentResult .score {
+        height: 50%;
+        width: 35%;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    .componentSection .componentResult p {
+        width: 75%;
+    }
+
+    .componentSection .componentResult span {
+        font-size: 2rem;
+    }
+
+    .componentSection .componentSummary .detail {
+        width: 100%;
+        height: 30%;
+        margin-bottom: 10px;
+    }
+}

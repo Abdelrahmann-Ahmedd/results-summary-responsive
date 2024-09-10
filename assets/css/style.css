@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.componentSection {
+    width: 50%;
+    height: 60%;
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 2px hsl(241, 100%, 89%);
+}
+
+.componentSection .componentResult {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 5% 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+.componentSection .componentResult h1 {
+    color: hsl(241, 100%, 89%);
+}
+
+.componentSection .componentSummary {
+    width: 50%;
+    height: 100%;
+    padding: 5%;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.componentSection .componentSummary .details {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.componentSection .componentSummary .detail {
+    width: 100%;
+    height: 22%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.componentSection .componentSummary .detail:nth-child(1) {
+
+    background-color: hsla(0, 100%, 67%,0.1);
+}
+
+.componentSection .componentSummary .detail:nth-child(2) {
+    background-color: hsla(39, 100%, 56%,0.1);
+}
+
+.componentSection .componentSummary .detail:nth-child(3) {
+    background-color: hsla(166, 100%, 37%,0.1);
+}
+
+.componentSection .componentSummary .detail:nth-child(4) {
+    background-color: hsla(234, 85%, 45%,0.1);
+}
+
+
+.componentSection .componentSummary .head {
+    display: flex;
+    width: 35%;
+}
+
+.componentSection .componentSummary p {
+    color: hsl(241, 100%, 89%);
+}
+
+.componentSection .componentSummary span {
+    font-weight: 700;
+    color: hsl(233, 45%, 29%);
+}
+
+.componentSection .componentSummary h3 {
+    font-size: medium;
+    font-weight: 700;
+}
+
+.componentSection .componentSummary h3:nth-child(1) {
+    color: hsl(0, 100%, 67%);
+}
+
+.componentSection .componentSummary h3:nth-child(2) {
+    color: hsl(39, 100%, 56%);
+}
+
+.componentSection .componentSummary h3:nth-child(3) {
+    color: hsl(166, 100%, 37%);
+}
+
+.componentSection .componentSummary h3:nth-child(4) {
+    color: hsl(234, 85%, 45%);
+}
+
+.componentSection .componentSummary .head img {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.componentSection .componentSummary button {
+    width: 100%;
+    height: 15%;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: 0.5px ;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+}
+
+h2 {
+    color: white;
+    text-transform: capitalize;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.componentSection .componentSummary h2 {
+    color: hsl(224, 30%, 27%);
+}
+
+.componentSection .componentResult .score {
+    height: 50%;
+    width: 65%;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.componentSection .componentResult span {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.componentSection .componentResult p {
+    font-size: 0.8rem;
+    color: hsl(241, 100%, 89%);
+    width: 65%;
+}
