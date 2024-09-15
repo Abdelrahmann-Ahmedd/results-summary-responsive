@@ -16,8 +16,8 @@ body {
 }
 
 .componentSection {
-    width: 50%;
-    height: 60%;
+    width: 45%;
+    height: 50%;
     display: flex;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
@@ -106,19 +106,19 @@ body {
     font-weight: 700;
 }
 
-.componentSection .componentSummary h3:nth-child(1) {
+.componentSection .componentSummary .detail:nth-child(1) h3 {
     color: hsl(0, 100%, 67%);
 }
 
-.componentSection .componentSummary h3:nth-child(2) {
+.componentSection .componentSummary .detail:nth-child(2) h3 {
     color: hsl(39, 100%, 56%);
 }
 
-.componentSection .componentSummary h3:nth-child(3) {
+.componentSection .componentSummary .detail:nth-child(3) h3 {
     color: hsl(166, 100%, 37%);
 }
 
-.componentSection .componentSummary h3:nth-child(4) {
+.componentSection .componentSummary .detail:nth-child(4) h3 {
     color: hsl(234, 85%, 45%);
 }
 
@@ -169,5 +169,5 @@ h2 {
 .componentSection .componentResult p {
     font-size: 0.8rem;
     color: hsl(241, 100%, 89%);
-    width: 65%;
+    width: 80%;
 }
